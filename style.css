@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  background-color: #800000;
+}
+
+.Header {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  padding: 20px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(128, 0, 0, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-weight: 700;
+  font-size: 25px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.navbar .search {
+  width: 40%;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 20px;
+  outline: none;
+  border: 3px solid #fff;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  background: transparent;
+}
+
+.navbar .cart_like {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navbar .cart_like span {
+  position: relative;
+}
+
+.navbar .cart_like span i {
+  font-size: 35px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.navbar .cart_like span small {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  background-color: #f00;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 50%;
+  top: -5px;
+  right: -10px;
+}
+
+.header_banner {
+  width: 100%;
+  padding: 50px 200px;
+}
+
+.header_banner .banner_akses {
+  background-color: #000;
+  border-radius: 30px;
+  padding: 0 50px;
+  display: flex;
+}
+
+.header_banner .banner_akses h1 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  letter-spacing: 1px;
+}
+
+.header_banner .banner_akses .banner_img {
+  width: 40%;
+}
+
+.header_banner .banner_akses .banner_img img {
+  width: 100%;
+}
+
+.products {
+  width: 100%;
+  padding: 50px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.products h3 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #fff;
+}
+
+.products .card_block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 50px;
+}
+
+.products .card_block .card_box {
+  width: 30%;
+  border-radius: 30px;
+  padding: 30px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #000;
+  margin-top: 20px;
+  position: relative;
+  /* background-image: url("./images/card-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover; */
+}
+
+.products .card_block .card_box i {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.products .card_block .card_box img {
+  height: 300px;
+}
+
+.products .card_block .card_box b {
+  font-weight: 600;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 30px;
+  letter-spacing: 1px;
+}
+
+.products .card_block .card_box .btn_gr {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.products .card_block .card_box .btn_gr button {
+  width: 45%;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+  padding: 10px 0;
+  border: none;
+  border-radius: 10px;
+  background-color: #f00;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
